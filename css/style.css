@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor-primaria: #6c63ff;
+    --cor-sucesso: #00bf8e;
+    --cor-aviso: #f7c94b;
+    --cor-perigo: #f75842;
+    --cor-perigo-variante: rgba(247,88,66,0.4);
+    --cor-branca: #fff;
+    --cor-cinza: rgba(255,255,255,0.7);
+    --color-preto: #000;
+    --cor-bg: #1f2641;
+    --cor-bg1: #2e3267;
+    --cor-bg2: #424890;
+
+    --container-width-lg: 76%;
+    --container-width-md: 90%;
+    --container-width-sm: 94%;
+
+    --transicao: all 400ms ease;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.7;
+    color: var(--cor-branca);
+    background: var(--cor-bg);
+}
+
+section{
+    padding: 6rem 0;
+}
+
+section h2{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+h1, h2, h3, h4, h5{
+    line-height: 1.2;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 2.4rem;
+}
+
+h3{
+    font-size: 1.6rem;
+}
+
+h4{
+    font-size: 1.3rem;
+}
+
+a{
+    color: var(--cor-branca);
+}
+
+img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.container{
+    width: var(--container-width-lg);
+    margin: 0 auto;
+
+}
+
+.btn{
+    display:inline-block;
+    background: var(--cor-branca);
+    color: var(--color-preto);
+    padding: 1rem 2rem;
+    border: 1px solid transparent;
+    font-weight: 500;
+    transition: var(--transicao);
+}
+
+.btn:hover{
+    background: transparent;
+    color: var(--cor-branca);
+    border-color: var(--cor-branca);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
