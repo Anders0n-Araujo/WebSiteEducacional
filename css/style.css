@@ -161,3 +161,74 @@ header{
 .header__left p{
     margin: 1rem 0 2.4rem;
 }
+
+.categorias{
+    background: var(--cor-bg1);
+    height: 29rem;
+}
+
+.categorias h1{
+    line-height: 1;
+    margin-bottom: 3rem;
+}
+
+.categorias__container{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.categorias__left{
+    margin-right: 4rem;
+}
+
+.categorias__left p{
+    margin: 1rem 0 3rem;
+}
+
+.categorias__right{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
+}
+
+.categoria{
+    background: var(--cor-bg2);
+    padding: 2rem;
+    border-radius: 2rem;
+    transition: var(--transicao);
+}
+
+.categoria:nth-child(2) .icone__categoria{
+    background: var(--cor-perigo);
+}
+
+.categoria:nth-child(3) .icone__categoria{
+    background: var(--cor-sucesso);
+}
+
+.categoria:nth-child(4) .icone__categoria{
+    background: var(--cor-aviso);
+}
+
+.categoria:nth-child(5) .icone__categoria{
+    background: var(--cor-sucesso);
+}
+
+.categoria:hover{
+    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.icone__categoria{
+    background: var(--cor-primaria);
+    padding: 0.7rem;
+    border-radius: 00.9rem;
+}
+
+.categoria h5{
+    margin: 2rem 0 1rem;
+}
+
+.categoria p{
+    font-size: 0.75rem;
+}
