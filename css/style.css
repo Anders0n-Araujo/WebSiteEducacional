@@ -116,6 +116,17 @@ nav{
     z-index: 11;
 }
 
+.window-scroll{
+    background: var(--cor-primaria);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+    transition: var(--transicao);
+}
+
+.window-scroll-home{
+    background: transparent;
+    transition: var(--transicao);
+}
+
 nav button{
     display: none;
 }
@@ -231,4 +242,35 @@ header{
 
 .categoria p{
     font-size: 0.75rem;
+}
+
+.cursos{
+    margin-top: 10rem;
+}
+
+.cursos__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.curso{
+    background: var(--cor-bg1);
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transicao);
+}
+
+.curso:hover{
+    background: transparent;
+    border-color: var(--cor-primaria);
+}
+
+.curso__info{
+    padding: 2rem;
+}
+
+.curso__info p{
+    margin: 1.2rem 0 2rem;
+    font-size: 0.9rem;
 }
