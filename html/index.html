@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="..\css\style.css">
 
 </head>
@@ -287,10 +288,10 @@
         </div>
     </section>
 
-    <section class="container testemunhos__container">
+    <section class="container testemunhos__container mySwiper">
         <h2>Testemunhos dos Estudantes</h2>
-        <div>
-            <article class="testemunho">
+        <div class="swiper-wrapper">
+            <article class="testemunho swiper-slide">
                 <div class="avatar">
                     <img src="../images/avatar1.jpg">
                 </div>
@@ -309,7 +310,7 @@
                 </div>
             </article>
 
-            <article class="testemunho">
+            <article class="testemunho swiper-slide">
                 <div class="avatar">
                     <img src="../images/avatar2.jpg">
                 </div>
@@ -328,7 +329,7 @@
                 </div>
             </article>
 
-            <article class="testemunho">
+            <article class="testemunho swiper-slide">
                 <div class="avatar">
                     <img src="../images/avatar3.jpg">
                 </div>
@@ -347,7 +348,7 @@
                 </div>
             </article>
 
-            <article class="testemunho">
+            <article class="testemunho swiper-slide">
                 <div class="avatar">
                     <img src="../images/avatar4.jpg">
                 </div>
@@ -366,7 +367,7 @@
                 </div>
             </article>
 
-            <article class="testemunho">
+            <article class="testemunho swiper-slide">
                 <div class="avatar">
                     <img src="../images/avatar5.jpg">
                 </div>
@@ -385,8 +386,10 @@
                 </div>
             </article>
         </div>
+        <div class="swiper-pagination"></div>
     </section>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="../main.js"></script>
 </body>
 </html>
