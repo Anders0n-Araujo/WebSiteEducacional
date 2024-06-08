@@ -1,0 +1,53 @@
+.sobre__conquistas{
+    margin-top: 3rem;
+}
+
+.sobre__conquistas-container{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 5rem;
+}
+
+.sobre__conquistas-right > p{
+    margin: 1.6rem 0 2.5rem;
+}
+
+.cards__conquistas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.card__conquista{
+    background: var(--cor-bg1);
+    padding: 1.6rem;
+    border-radius: 1rem;
+    text-align: center;
+    transition: var(--transicao);
+}
+
+.card__conquista:hover{
+    background: var(--cor-bg2);
+    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+}
+
+.icone__conquista{
+    background: var(--cor-perigo);
+    padding: 0.6rem;
+    border-radius: 1rem;
+    display: inline-block;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.card__conquista:nth-child(2) .icone__conquista{
+    background: var(--cor-sucesso);
+}
+
+.card__conquista:nth-child(3) .icone__conquista{
+    background: var(--cor-primaria);
+}
+
+.card__conquista p{
+    margin-top: 1rem;
+}
