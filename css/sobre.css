@@ -106,6 +106,60 @@
     box-shadow: -2rem 0 2rem rgba(0, 0, 0, 0.3);
 }
 
+.membro__time:hover   
+.membro__time-socials{
+    right: 0;
+    transition: var(--transicao);
+}
+
 .membro__time-socials a{
     padding: 1rem;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .sobre__conquistas{
+        margin-top: 2rem;
+    }
+
+    .sobre__conquistas-container{
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+
+    .sobre__conquistas-left{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .time__container{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+
+    .membro__time{
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .card__conquista{
+        grid-template-columns: 1fr 1fr ;
+        gap: 0.7rem;
+    }
+
+    .time__container{
+        grid-template-columns: 1fr 1fr;
+        gap: 0.7rem;
+    }
+
+    .membro__time{
+        padding: 0;
+    }
+
+    .membro__time p{
+        margin-bottom: 1.5rem;
+    }
+
+    
 }

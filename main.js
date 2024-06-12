@@ -19,19 +19,6 @@ faqs.forEach(faq => {
     })
 })
 
-var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    breakpoints: {
-        600: {
-            slidesPerView: 2 
-        }
-    }
-});
 
 const menu = document.querySelector('.nav__menu');
 const menuBtn = document.querySelector("#open-menu-btn");
