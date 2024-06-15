@@ -84,5 +84,51 @@ input, textarea{
     width: max-content;
     cursor: pointer;
     margin-top: 1rem;
+    margin-left: 09rem;
+}    
+
+@media screen and (max-width: 1024px) {
+    .contato{
+        /*padding-bottom: 0;*/
+    }
+
+    .contato__container{
+        gap: 1.5rem;
+        margin-top: 3rem;
+        height: auto;
+        padding: 1.5rem;
+    }
+
+    .contato__aside{
+        width: auto;
+        padding: 1.5rem;
+        bottom: 0;
+    }
+
+    .contato__form{
+        align-self: center;
+        margin-right: 1.5rem;
+    }
 }
 
+@media screen and (max-width: 600px){
+    .contato__container{
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .contato__form{
+        margin: 0 1.5rem 3rem;
+    }
+
+    .form__nome{
+        flex-direction: column;
+    }
+
+    .form__nome input[type="text"]{
+        width: 100%;
+    }
+    
+}
