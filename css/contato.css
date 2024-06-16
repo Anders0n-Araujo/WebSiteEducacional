@@ -88,9 +88,6 @@ input, textarea{
 }    
 
 @media screen and (max-width: 1024px) {
-    .contato{
-        /*padding-bottom: 0;*/
-    }
 
     .contato__container{
         gap: 1.5rem;
