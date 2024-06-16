@@ -33,6 +33,7 @@ body{
     line-height: 1.7;
     color: var(--cor-branca);
     background: var(--cor-bg);
+    background-image: url(../images/bg-texture.png);
 }
 
 section{
