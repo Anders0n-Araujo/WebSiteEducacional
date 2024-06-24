@@ -27,13 +27,20 @@
 }
 
 .forma__pagamento h4{
-    display: flex;  
+    display: flex; 
 }
 
-.forma__pagamento span{
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    gap: 0.9rem;
+.img__pagamento{
+    width: 90%;
+    height: fit-content;
 }
 
+#elo{
+    margin-top: 0.2rem;
+    width: 100%;
+}
+
+#hyper{
+    margin-top: 0.2rem;
+    width: 100%;
+}
